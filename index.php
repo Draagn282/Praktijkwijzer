@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>LMOA</h1>
+    <h1>LMAO</h1>
 </body>
 </html>
