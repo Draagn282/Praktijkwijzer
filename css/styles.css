@@ -96,6 +96,31 @@ p {
 @media only screen and (max-width: 767px) {
 }
 
+/********** ADMIN PAGE **********/
+.Admin_Page{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.Admin_Subject{
+  width: 100%;
+  height: 100vh;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.Admin_Section{
+  width: 33%;
+  height: 99%;
+  background-color: cyan;
+}
+
 /************************* INCLUDES *************************/
 
 /********** HEADER **********/
@@ -108,6 +133,6 @@ p {
 header{
     width: 100%;
     height: 40px;
-    background-color: black;
+    background-color: grey;
 }
 
