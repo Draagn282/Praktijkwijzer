@@ -1,10 +1,97 @@
-header{
-    width: 100%;
-    height: 50px;
- background-color: black;
- position: fixed;
+
+/* auteur: Liam 
+version: 1
+date: 28/02/2023
+
+Hou alles overzichtelijk
+voor elke section zet een space  */
+
+/************************* SECTION *************************/
+
+/* en voor elke sub section zet je een kleine space  */
+
+/********** SUB SECTION **********/
+
+/* werk met variablen AUB */
+
+/* find snel sections met ctrl + f */
+
+/* -- ALGEMENEEN */
+/* -- TITLES EN PARAGRAPHS */
+/* -- PAGES */
+/* -- HOME PAGE */
+
+/************************* ALGEMENEEN *************************/
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&display=swap");
+
+:root {
+  --primary: #000000;
+  --secondary: #ffffff;
+  --black: #000000;
+  --white: #ffffff;
+  --popins: "Poppins", sans-serif;
+  --sans: "Open Sans", sans-serif;
 }
-.header_space{
-    width: 100%;
-    height: 50px;
+
+::selection {
+  color: var(--secondary);
+}
+
+/********** TITLES EN PARAGRAPHS **********/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: var(--popins);
+  color: var(--primary);
+}
+
+h1,
+h2 {
+  font-size: 72px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 22px;
+}
+
+h6 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 1024px) {
+  h1,
+  h2 {
+    font-size: 56px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+/************************* PAGES *************************/
+
+/********** HOME PAGE **********/
+
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 767px) {
 }
