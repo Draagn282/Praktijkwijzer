@@ -95,3 +95,19 @@ p {
 
 @media only screen and (max-width: 767px) {
 }
+
+/************************* INCLUDES *************************/
+
+/********** HEADER **********/
+
+.header_space{
+    width: 100%;
+    height: 50px;
+}
+
+header{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
