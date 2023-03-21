@@ -127,7 +127,89 @@ p {
   width: 33%;
   height: 99%;
   background-color: cyan;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
 }
+
+.Section_title{
+  width: 100%;
+  height: 10vh;
+}
+.Section_QuickAcces{
+  width: 100%;
+  height: 15vh;
+  background-color: crimson;
+}
+
+.Section_scroll{
+  width: 100%;
+  height: 75vh;
+  overflow-y: auto;
+  background-color: darkslateblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.complaint{
+  width: 96%;
+  height: 500px;
+  background-color: palegreen;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.complaint_data{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.complaint_user, .complaint_weight, .complaint_date{
+  width: 100px;
+  display: flex;
+  justify-content: flex-start;
+}
+.complaint_date{
+  width: 110px;
+}
+
+.complaint_text{
+  width: 95%;
+  height: 80%;
+  background-color: darkcyan;
+}
+
+.complaint_buttons{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.complaint_buttons button{
+  width: 100px;
+  height: 30px;
+  background-color: rgb(5, 234, 5);
+  border: none;
+  border-radius: 3px;
+}
+
+
 
 /************************* INCLUDES *************************/
 
