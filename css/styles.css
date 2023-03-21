@@ -19,22 +19,24 @@ voor elke section zet een space  */
 /* -- TITLES EN PARAGRAPHS */
 /* -- PAGES */
 /* -- HOME PAGE */
+/* -- SCHOONMAAK DASHBOARD */
 
 /************************* ALGEMENEEN *************************/
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&display=swap");
-
+@import url("https://fonts.cdnfonts.com/css/nature");
 :root {
   --primary: #000000;
-  --secondary: #ffffff;
+  --secondary: #41cb76;
   --black: #000000;
   --white: #ffffff;
   --popins: "Poppins", sans-serif;
   --sans: "Open Sans", sans-serif;
+  --nature: "Nature", sans-serif;
 }
 
 ::selection {
-  color: var(--secondary);
+  color: rgb(255, 201, 86);
 }
 
 * {
@@ -46,8 +48,6 @@ voor elke section zet een space  */
 
 /********** TITLES EN PARAGRAPHS **********/
 
-h1,
-h2,
 h3,
 h4,
 h5,
@@ -59,7 +59,9 @@ p {
 
 h1,
 h2 {
-  font-size: 72px;
+  font-size: 54px;
+  font-family: var(--nature);
+  color: var(--primary);
 }
 
 h3 {
@@ -141,3 +143,55 @@ header {
   height: 40px;
   background-color: grey;
 }
+
+/************************* SCHOONMAAK DASHBOARD *************************/
+
+/********** MAIN UX **********/
+.dc-ux-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.dc-ux-wrapped-section {
+  width: 100%;
+  height: auto;
+  max-width: 1500px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--secondary);
+}
+
+.dc-ux-block-section {
+  width: 25%;
+}
+
+.dc-ux-block-div {
+  width: fit-content;
+}
+
+@media only screen and (max-width: 1200px) {
+  .dc-ux-wrapped-section {
+    flex-wrap: wrap;
+  }
+  .dc-ux-block-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .dc-ux-block-section {
+    width: 100%;
+  }
+}
+
+/********** HEADER **********/
+
+/********** FOOTER **********/
+
+/********** dashboard **********/
+
+/********** BUTTTONS **********/
