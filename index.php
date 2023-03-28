@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +12,7 @@
 <?php include_once("includes/header.php"); 
 ?>
 <body>
+
 	<main>
 		
 	<section class="hero">
@@ -45,5 +47,7 @@
 
 	</main>
     <?php include_once("includes/footer.php"); ?>
+
+
 </body>
 </html>

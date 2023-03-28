@@ -1,3 +1,4 @@
+
 <header class="header">
     <nav class="navbar navbar-expand-lg fixed-top py-3">
         <div class="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold">Transparent Nav</a>
@@ -31,4 +32,7 @@
                     <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Portfolio</a></li>
                     <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Contact</a></li>
                 </ul>
--->
+            </div>
+        </div>
+    </nav>
+</header>

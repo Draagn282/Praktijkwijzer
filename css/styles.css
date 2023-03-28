@@ -36,24 +36,31 @@ voor elke section zet een space  */
 /************************* ALGEMENEEN *************************/
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&display=swap");
+@import url("https://fonts.cdnfonts.com/css/nature");
 :root {
     --primary: #000000;
-    --secondary: #ffffff;
+    --secondary: #41cb76;
     --black: #000000;
     --white: #ffffff;
     --popins: "Poppins", sans-serif;
     --sans: "Open Sans", sans-serif;
+    --nature: "Nature", sans-serif;
 }
 
 ::selection {
-    color: var(--secondary);
+    color: rgb(255, 201, 86);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
 /********** TITLES EN PARAGRAPHS **********/
 
-h1,
-h2,
 h3,
 h4,
 h5,
@@ -197,6 +204,195 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
+/********** ADMIN PAGE **********/
+
+.Admin_Page {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.Admin_Subject {
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.Admin_Section {
+    width: 33%;
+    height: 99%;
+    background-color: cyan;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.Section_title {
+    width: 100%;
+    height: 10vh;
+}
+
+.Section_QuickAcces {
+    width: 100%;
+    height: 15vh;
+    background-color: crimson;
+}
+
+.Section_scroll {
+    width: 100%;
+    height: 75vh;
+    overflow-y: auto;
+    background-color: darkslateblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.complaint {
+    width: 96%;
+    height: 500px;
+    background-color: palegreen;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.complaint_data {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.complaint_user,
+.complaint_weight,
+.complaint_date {
+    width: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.complaint_date {
+    width: 110px;
+}
+
+.complaint_text {
+    width: 95%;
+    height: 80%;
+    background-color: darkcyan;
+}
+
+.complaint_buttons {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.complaint_buttons button {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(5, 234, 5);
+    border: none;
+    border-radius: 3px;
+}
+
+
+/************************* INCLUDES *************************/
+
+
+/********** HEADER **********/
+
+.header_space {
+    width: 100%;
+    height: 50px;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    background-color: grey;
+}
+
+
+/************************* SCHOONMAAK DASHBOARD *************************/
+
+
+/********** MAIN UX **********/
+
+.dc-ux-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.dc-ux-wrapped-section {
+    width: 100%;
+    height: auto;
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondary);
+}
+
+.dc-ux-block-section {
+    width: 25%;
+}
+
+.dc-ux-block-div {
+    width: fit-content;
+}
+
+@media only screen and (max-width: 1200px) {
+    .dc-ux-wrapped-section {
+        flex-wrap: wrap;
+    }
+    .dc-ux-block-section {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .dc-ux-block-section {
+        width: 100%;
+    }
+}
+
+
+/********** HEADER **********/
+
+
+/********** FOOTER **********/
+
+
+/********** dashboard **********/
+
+
+/********** BUTTTONS **********/
 
 .activities li {
     background-color: #fff;
