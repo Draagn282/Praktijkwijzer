@@ -1,3 +1,47 @@
+header {
+    background-color: #4d4d4d;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #4d4d4d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/**
 .navbar {
     transition: all 0.4s;
 }
@@ -17,7 +61,7 @@
 }
 
 
-/* Change navbar styling on scroll */
+/* Change navbar styling on scroll 
 
 .navbar.active {
     background: #fff;
@@ -37,6 +81,8 @@
 .navbar.active .navbar-brand {
     color: #555;
 }
+
+*/
 
 
 /* Change navbar styling on small viewports */

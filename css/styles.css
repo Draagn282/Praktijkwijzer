@@ -5,37 +5,50 @@ date: 28/02/2023
 Hou alles overzichtelijk
 voor elke section zet een space  */
 
+
 /************************* SECTION *************************/
+
 
 /* en voor elke sub section zet je een kleine space  */
 
+
 /********** SUB SECTION **********/
+
 
 /* werk met variablen AUB */
 
+
 /* find snel sections met ctrl + f */
 
+
 /* -- ALGEMENEEN */
+
+
 /* -- TITLES EN PARAGRAPHS */
+
+
 /* -- PAGES */
+
+
 /* -- HOME PAGE */
+
 
 /************************* ALGEMENEEN *************************/
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&display=swap");
-
 :root {
-  --primary: #000000;
-  --secondary: #ffffff;
-  --black: #000000;
-  --white: #ffffff;
-  --popins: "Poppins", sans-serif;
-  --sans: "Open Sans", sans-serif;
+    --primary: #000000;
+    --secondary: #ffffff;
+    --black: #000000;
+    --white: #ffffff;
+    --popins: "Poppins", sans-serif;
+    --sans: "Open Sans", sans-serif;
 }
 
 ::selection {
-  color: var(--secondary);
+    color: var(--secondary);
 }
+
 
 /********** TITLES EN PARAGRAPHS **********/
 
@@ -46,51 +59,151 @@ h4,
 h5,
 h6,
 p {
-  font-family: var(--popins);
-  color: var(--primary);
+    font-family: var(--popins);
+    color: var(--primary);
 }
 
 h1,
 h2 {
-  font-size: 72px;
+    font-size: 72px;
 }
 
 h3 {
-  font-size: 32px;
+    font-size: 32px;
 }
 
 h4 {
-  font-size: 24px;
+    font-size: 24px;
 }
 
 h5 {
-  font-size: 22px;
+    font-size: 22px;
 }
 
 h6 {
-  font-size: 22px;
+    font-size: 22px;
 }
 
 p {
-  font-size: 17px;
+    font-size: 17px;
 }
 
 @media only screen and (max-width: 1024px) {
-  h1,
-  h2 {
-    font-size: 56px;
-  }
+    h1,
+    h2 {
+        font-size: 56px;
+    }
 }
 
-@media only screen and (max-width: 767px) {
-}
+@media only screen and (max-width: 767px) {}
+
 
 /************************* PAGES *************************/
 
+
 /********** HOME PAGE **********/
 
-@media only screen and (max-width: 1024px) {
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {}
+
+@media only screen and (max-width: 767px) {}
+
+
+/* Hero section styles */
+
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba');
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin-top: 0;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #008cba;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+
+/* Amenities section styles */
+
+.amenities {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+.amenities h2 {
+    margin-top: 0;
+}
+
+.amenities ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.amenities li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+}
+
+
+/* Activities section styles */
+
+.activities {
+    padding: 50px;
+    text-align: center;
+}
+
+.activities h2 {
+    margin-top: 0;
+}
+
+.activities ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.activities li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
 }
