@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +10,6 @@
 </head>
 <body>
 <?php include_once("includes/header.php"); ?>
-    <h1>LMAO</h1>
+
 </body>
 </html>
