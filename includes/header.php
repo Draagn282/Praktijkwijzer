@@ -10,7 +10,7 @@
 <body>
     
 <header>
-    GAMER
+    <a href="../index.php">index</a>
     <a href="pages/admin.php">admin</a>
 </header>
 <div class="header_space"></div>

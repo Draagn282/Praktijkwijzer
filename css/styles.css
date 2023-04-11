@@ -116,7 +116,6 @@ p {
 .Admin_Subject {
   width: 100%;
   height: 100vh;
-  background-color: blue;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -126,7 +125,6 @@ p {
 .Admin_Section {
   width: 33%;
   height: 99%;
-  background-color: cyan;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -140,14 +138,14 @@ p {
 .Section_QuickAcces{
   width: 100%;
   height: 15vh;
-  background-color: crimson;
+  border-top: solid 1px black;
 }
 
 .Section_scroll{
   width: 100%;
   height: 74vh;
   overflow-y: auto;
-  background-color: darkslateblue;
+  background-color: #e9e9e937;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -159,7 +157,9 @@ p {
 .complaint{
   width: 96%;
   height: 500px;
-  background-color: palegreen;
+  min-height: 300px;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
   margin: 5px;
   display: flex;
   flex-direction: column;
@@ -176,6 +176,7 @@ p {
   justify-content: space-around;
   flex-wrap: nowrap;
   flex-direction: row;
+  border-bottom: solid 1px black;
 }
 
 .complaint_user, .complaint_weight, .complaint_date{
@@ -183,6 +184,7 @@ p {
   display: flex;
   justify-content: flex-start;
 }
+
 .complaint_date{
   width: 110px;
 }
@@ -190,7 +192,7 @@ p {
 .complaint_text{
   width: 95%;
   height: 80%;
-  background-color: darkcyan;
+  border-bottom: solid 1px black;  
 }
 
 .complaint_buttons{
@@ -204,15 +206,20 @@ p {
 .complaint_buttons button{
   width: 100px;
   height: 30px;
-  background-color: rgb(5, 234, 5);
+  background-color: var(--secondary);
   border: none;
   border-radius: 3px;
 }
+.complaint_buttons button:hover{
+background-color: none;
+border: 1px solid yellow;
+cursor: pointer;
+}
+
 
 .field{
   width: 96%;
   height: 300px;
-  background-color: palegreen;
   margin: 5px;
   display: flex;
   flex-direction: column;
@@ -228,6 +235,7 @@ p {
   align-items: flex-start;
   justify-content: space-around;
   flex-direction: column;
+  border-bottom: 1px solid black;
 }
 
 .field_data p{
@@ -237,7 +245,6 @@ p {
 .User{
   width: 96%;
   height: 300px;
-  background-color: palegreen;
   margin: 5px;
   display: flex;
   flex-direction: column;

@@ -34,9 +34,9 @@
                 </div>
 
                 <div class="complaint_buttons">
-                    <button>...complete...</button>
-                    <button>...edit...</button>
-                    <button>...delete...</button>
+                    <button style="background-color: Green;">...complete...</button>
+                    <button style="background-color: cyan;">...edit...</button>
+                    <button style="background-color: red;">...delete...</button>
                 </div>
             </div>
             <div class="complaint">
@@ -55,13 +55,13 @@
                     </div>
                 </div>
                 <div class="complaint_text">
-                    <p>...This is a lot of text, but i do non know what to put here, so i am going to type some stuff to see if it fits...</p>
+                    <p>...This is even more text to see if i am a good blind typer, it looks like its working, but looking goed faster cuz i can see the things. THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere a lot of text, but i do non know what to put here, so i am going to type some stuff to see if it fits...</p>
                 </div>
 
                 <div class="complaint_buttons">
-                    <button>...complete...</button>
-                    <button>...edit...</button>
-                    <button>...delete...</button>
+                    <button style="background-color: Green;">...complete...</button>
+                    <button style="background-color: cyan;">...edit...</button>
+                    <button style="background-color: red;">...delete...</button>
                 </div>
             </div>
         </div>
@@ -130,7 +130,6 @@
                         <p>...User Mail...</p>
                         <p>...User Address...</p>
                         <p>...User Birthdate...</p>
-                        <p>...Customer ID...</p>
                 </div>
                 <div class="complaint_buttons">
                     <button>...edit...</button>
@@ -146,7 +145,6 @@
                         <p>...User Address...</p>
                         <p>...User ...</p>
                         <p>...Customer Name...</p>
-                        <p>...Customer ID...</p>
                 </div>
                 <div class="complaint_buttons">
                     <button>...edit...</button>
@@ -157,16 +155,7 @@
     </div>
 </div>
 </div>
-<div class="Admin_Subject">
-    <div class="Admin_Section"></div>
-    <div class="Admin_Section"></div>
-    <div class="Admin_Section"></div>
-</div>
-<div class="Admin_Subject">
-    <div class="Admin_Section"></div>
-    <div class="Admin_Section"></div>
-    <div class="Admin_Section"></div>
-</div>
+    
 </div>
 
 
