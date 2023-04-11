@@ -145,7 +145,7 @@ p {
 
 .Section_scroll{
   width: 100%;
-  height: 75vh;
+  height: 74vh;
   overflow-y: auto;
   background-color: darkslateblue;
   display: flex;
@@ -207,6 +207,43 @@ p {
   background-color: rgb(5, 234, 5);
   border: none;
   border-radius: 3px;
+}
+
+.field{
+  width: 96%;
+  height: 300px;
+  background-color: palegreen;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.field_data{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.field_data p{
+
+}
+
+.User{
+  width: 96%;
+  height: 300px;
+  background-color: palegreen;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
 }
 
 
