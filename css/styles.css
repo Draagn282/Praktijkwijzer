@@ -299,7 +299,7 @@ body {
   width: 95%;
   height: 80%;
   border-bottom: solid 1px black;  
-  
+}
 .complaint_user,
 .complaint_weight,
 .complaint_date {
@@ -315,7 +315,7 @@ body {
   background-color: var(--secondary);
   border: none;
   border-radius: 3px;
-
+}
 .complaint_buttons {
     width: 100%;
     height: 50px;
