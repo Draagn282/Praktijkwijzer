@@ -10,7 +10,7 @@
 </head>
 <body>
 </header>
-<!--
+
 <h1>Camping Ground</h1>
 		<nav>
 			<ul>
