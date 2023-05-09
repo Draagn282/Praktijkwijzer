@@ -6,8 +6,8 @@
             
             <div id="navbarSupportedContent" class="collapse navbar-collapse">
             <ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Campsites</a></li>
+				<li><a href="/index.php">Home</a></li>
+				<li><a href="../pages/">inlog</a></li>
 				<li><a href="#">Activities</a></li>
 				<li><a href="#">Contact Us</a></li>
 			</ul>
