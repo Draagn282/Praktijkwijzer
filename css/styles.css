@@ -23,6 +23,19 @@ voor elke section zet een space  */
 
 /* -- HOME PAGE */
 
+
+/* -- login page */
+
+.loginform {
+    width: fit-content;
+    margin: 150px;
+    padding: 25px;
+    border: #000000;
+    border-style: solid
+}
+
+
+
 /************************* ALGEMENEEN *************************/
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&display=swap");
@@ -256,6 +269,7 @@ color: #000000;
 }
 
 .Admin_Subject {
+
   width: 100%;
   height: 100vh;
   background-color: blue;
@@ -322,15 +336,26 @@ color: #000000;
   flex-direction: row;
 }
 
-
-.complaint_text{
-  width: 95%;
-  height: 80%;
-  border-bottom: solid 1px black;  
+.complaint_data {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
+
+.complaint_text {
+    width: 95%;
+    height: 80%;
+    border-bottom: solid 1px black;
+}
+
 .complaint_user,
 .complaint_weight,
 .complaint_date {
+
   width: 100px;
   display: flex;
   justify-content: flex-start;
