@@ -5,20 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Camping Maasvallei</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/nav-foot.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 <?php include_once("includes/header.php"); 
 ?>
 <body>
 	<div class="home-background">
-		<h1>Welkom bij camping de Maasvallei!</h1>
+    <div class="background-opacity">
+    <h1>Welkom bij camping de Maasvallei!</h1>
 		<p>Experience the great outdoors with us.</p>
 		<a href="#" class="btn">Reserveer nu</a>
 		<div class="home-info">
 	<p>Dobberen in lagunebaden, zonnen aan zee en boomklimmen in het bos. Zo maar een greep uit het enorme activiteitenaanbod op camping de Maasvallei. En je beleeft hier nog zoveel meer. Een supercamping voor het hele gezin. Neem je intrek in een stoere safaritent of luxe glamping accommodatie, en je vakantie kan beginnen!</p>
 </div>
+    </div>
 </div>
 <div class="impression-home">
 	<h2>Een impressie van de camping en de activiteiten</h2>
