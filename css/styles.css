@@ -33,6 +33,17 @@ voor elke section zet een space  */
 /* -- HOME PAGE */
 
 
+/* -- login page */
+
+.loginform {
+    width: fit-content;
+    margin: 150px;
+    padding: 25px;
+    border: #000000;
+    border-style: solid
+}
+
+
 /************************* ALGEMENEEN *************************/
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&display=swap");
@@ -218,77 +229,80 @@ body {
 }
 
 .Admin_Subject {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
-  align-content: space-between;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
 }
 
 .Admin_Section {
-  width: 33%;
-  height: 99%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center;
+    width: 33%;
+    height: 99%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
 }
+
 
 /********** ADMINISTRATOR PAGE **********/
+
 .administrator {
-  background-color: green;
-  width: auto;
-  min-height: 400px;
+    background-color: green;
+    width: auto;
+    min-height: 400px;
 }
 
-.Section_title{
-  width: 100%;
-  height: 10vh;
-}
-.Section_QuickAcces{
-  width: 100%;
-  height: 15vh;
-  border-top: solid 1px black;
+.Section_title {
+    width: 100%;
+    height: 10vh;
 }
 
-.Section_scroll{
-  width: 100%;
-  height: 74vh;
-  overflow-y: auto;
-  background-color: #e9e9e937;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: flex-start;
+.Section_QuickAcces {
+    width: 100%;
+    height: 15vh;
+    border-top: solid 1px black;
 }
 
-.complaint{
-  width: 96%;
-  height: 500px;
-  min-height: 300px;
-  border-top: solid 1px black;
-  border-bottom: solid 1px black;
-  margin: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
+.Section_scroll {
+    width: 100%;
+    height: 74vh;
+    overflow-y: auto;
+    background-color: #e9e9e937;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
 }
 
-.complaint_data{
-  width: 100%;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  border-bottom: solid 1px black;
+.complaint {
+    width: 96%;
+    height: 500px;
+    min-height: 300px;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.complaint_data {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    border-bottom: solid 1px black;
 }
 
 .complaint_data {
@@ -301,12 +315,12 @@ body {
     flex-direction: row;
 }
 
-
-.complaint_text{
-  width: 95%;
-  height: 80%;
-  border-bottom: solid 1px black;  
+.complaint_text {
+    width: 95%;
+    height: 80%;
+    border-bottom: solid 1px black;
 }
+
 .complaint_user,
 .complaint_weight,
 .complaint_date {
@@ -315,60 +329,58 @@ body {
     justify-content: flex-start;
 }
 
-
-.complaint_buttons button{
-  width: 100px;
-  height: 30px;
-  background-color: var(--secondary);
-  border: none;
-  border-radius: 3px;
+.complaint_buttons button {
+    width: 100px;
+    height: 30px;
+    background-color: var(--secondary);
+    border: none;
+    border-radius: 3px;
 }
+
 .complaint_buttons {
     width: 100%;
     height: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-}
-.complaint_buttons button:hover{
-background-color: none;
-border: 1px solid yellow;
-cursor: pointer;
 }
 
-
-.field{
-  width: 96%;
-  height: 300px;
-  margin: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
+.complaint_buttons button:hover {
+    background-color: none;
+    border: 1px solid yellow;
+    cursor: pointer;
 }
 
-.field_data{
-  width: 100%;
-  height: 80%;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
-  flex-direction: column;
-  border-bottom: 1px solid black;
+.field {
+    width: 96%;
+    height: 300px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
 
+.field_data {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+}
 
-.User{
-  width: 96%;
-  height: 300px;
-  margin: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
+.User {
+    width: 96%;
+    height: 300px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
 
 .complaint_buttons button {
