@@ -1,21 +1,16 @@
 
-<header class="header">
-    <nav class="navbar navbar-expand-lg fixed-top py-3">
-        <div class="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold">Transparent Nav</a>
-            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
-            
-            <div id="navbarSupportedContent" class="collapse navbar-collapse">
-            <ul>
-				<li><a href="/index.php">Home</a></li>
-				<li><a href="../pages/">inlog</a></li>
-				<li><a href="#">Activities</a></li>
-				<li><a href="#">Contact Us</a></li>
-			</ul>
-            </div>
-        </div>
-    </nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Ebic</title>
+</head>
+<body>
 </header>
-<!--
+
 <h1>Camping Ground</h1>
 		<nav>
 			<ul>
@@ -36,4 +31,3 @@
         </div>
     </nav>
 </header>
--->
