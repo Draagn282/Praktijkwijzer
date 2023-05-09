@@ -127,6 +127,13 @@ p {
   background-color: cyan;
 }
 
+/********** ADMINISTRATOR PAGE **********/
+.administrator {
+  background-color: green;
+  width: auto;
+  min-height: 400px;
+}
+
 /************************* INCLUDES *************************/
 
 /********** HEADER **********/
