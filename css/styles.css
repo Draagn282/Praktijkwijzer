@@ -5,126 +5,235 @@ date: 28/02/2023
 Hou alles overzichtelijk
 voor elke section zet een space  */
 
+
 /************************* SECTION *************************/
+
 
 /* en voor elke sub section zet je een kleine space  */
 
+
 /********** SUB SECTION **********/
+
 
 /* werk met variablen AUB */
 
+
 /* find snel sections met ctrl + f */
 
+
 /* -- ALGEMENEEN */
+
+
 /* -- TITLES EN PARAGRAPHS */
+
+
 /* -- PAGES */
+
+
 /* -- HOME PAGE */
+
 
 /************************* ALGEMENEEN *************************/
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&display=swap");
-
+@import url("https://fonts.cdnfonts.com/css/nature");
 :root {
-  --primary: #000000;
-  --secondary: #ffffff;
-  --black: #000000;
-  --white: #ffffff;
-  --popins: "Poppins", sans-serif;
-  --sans: "Open Sans", sans-serif;
+    --primary: #000000;
+    --secondary: #41cb76;
+    --black: #000000;
+    --white: #ffffff;
+    --popins: "Poppins", sans-serif;
+    --sans: "Open Sans", sans-serif;
+    --nature: "Nature", sans-serif;
 }
 
 ::selection {
-  color: var(--secondary);
+    color: rgb(255, 201, 86);
 }
 
 * {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+
 
 /********** TITLES EN PARAGRAPHS **********/
 
-h1,
-h2,
 h3,
 h4,
 h5,
 h6,
 p {
-  font-family: var(--popins);
-  color: var(--primary);
+    font-family: var(--popins);
+    color: var(--primary);
 }
 
 h1,
 h2 {
-  font-size: 72px;
+    font-size: 72px;
 }
 
 h3 {
-  font-size: 32px;
+    font-size: 32px;
 }
 
 h4 {
-  font-size: 24px;
+    font-size: 24px;
 }
 
 h5 {
-  font-size: 22px;
+    font-size: 22px;
 }
 
 h6 {
-  font-size: 22px;
+    font-size: 22px;
 }
 
 p {
-  font-size: 17px;
+    font-size: 17px;
 }
 
 @media only screen and (max-width: 1024px) {
-  h1,
-  h2 {
-    font-size: 56px;
-  }
+    h1,
+    h2 {
+        font-size: 56px;
+    }
 }
 
-@media only screen and (max-width: 767px) {
-}
+@media only screen and (max-width: 767px) {}
+
 
 /************************* PAGES *************************/
 
+
 /********** HOME PAGE **********/
 
-@media only screen and (max-width: 1024px) {
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {}
+
+@media only screen and (max-width: 767px) {}
+
+
+/* Hero section styles */
+
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba');
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
 }
+
+.hero h1 {
+    font-size: 60px;
+    margin-top: 0;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #008cba;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+
+/* Amenities section styles */
+
+.amenities {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+.amenities h2 {
+    margin-top: 0;
+}
+
+.amenities ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.amenities li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+}
+
+
+/* Activities section styles */
+
+.activities {
+    padding: 50px;
+    text-align: center;
+}
+
+.activities h2 {
+    margin-top: 0;
+}
+
+.activities ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 
 /********** ADMIN PAGE **********/
+
 .Admin_Page {
-  width: auto;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: nowrap;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
 }
+
 .Admin_Subject {
   width: 100%;
   height: 100vh;
-  background-color: blue;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
   align-content: space-between;
 }
+
 .Admin_Section {
   width: 33%;
   height: 99%;
-  background-color: cyan;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 /********** ADMINISTRATOR PAGE **********/
@@ -134,17 +243,224 @@ p {
   min-height: 400px;
 }
 
+.Section_title{
+  width: 100%;
+  height: 10vh;
+}
+.Section_QuickAcces{
+  width: 100%;
+  height: 15vh;
+  border-top: solid 1px black;
+}
+
+.Section_scroll{
+  width: 100%;
+  height: 74vh;
+  overflow-y: auto;
+  background-color: #e9e9e937;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.complaint{
+  width: 96%;
+  height: 500px;
+  min-height: 300px;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.complaint_data{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  border-bottom: solid 1px black;
+}
+
+.complaint_data {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+
+.complaint_text{
+  width: 95%;
+  height: 80%;
+  border-bottom: solid 1px black;  
+}
+.complaint_user,
+.complaint_weight,
+.complaint_date {
+    width: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.complaint_buttons button{
+  width: 100px;
+  height: 30px;
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 3px;
+}
+.complaint_buttons {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.complaint_buttons button:hover{
+background-color: none;
+border: 1px solid yellow;
+cursor: pointer;
+}
+
+
+.field{
+  width: 96%;
+  height: 300px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.field_data{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+}
+
+
+.User{
+  width: 96%;
+  height: 300px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.complaint_buttons button {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(5, 234, 5);
+    border: none;
+    border-radius: 3px;
+}
+
+
 /************************* INCLUDES *************************/
+
 
 /********** HEADER **********/
 
 .header_space {
-  width: 100%;
-  height: 50px;
+    width: 100%;
+    height: 50px;
 }
 
 header {
-  width: 100%;
-  height: 40px;
-  background-color: grey;
+    width: 100%;
+    height: 40px;
+    background-color: grey;
+}
+
+
+/************************* SCHOONMAAK DASHBOARD *************************/
+
+
+/********** MAIN UX **********/
+
+.dc-ux-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.dc-ux-wrapped-section {
+    width: 100%;
+    height: auto;
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondary);
+}
+
+.dc-ux-block-section {
+    width: 25%;
+}
+
+.dc-ux-block-div {
+    width: fit-content;
+}
+
+@media only screen and (max-width: 1200px) {
+    .dc-ux-wrapped-section {
+        flex-wrap: wrap;
+    }
+    .dc-ux-block-section {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .dc-ux-block-section {
+        width: 100%;
+    }
+}
+
+
+/********** HEADER **********/
+
+
+/********** FOOTER **********/
+
+
+/********** dashboard **********/
+
+
+/********** BUTTTONS **********/
+
+.activities li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
 }
