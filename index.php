@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,50 +7,71 @@
     <title>Camping Maasvallei</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/nav-foot.css">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="icon" href="media/images/icon-favicon.png">
 </head>
 <?php include_once("includes/header.php"); 
 ?>
 <body>
 	<div class="home-background">
-    <div class="background-opacity">
     <h1>Welkom bij camping de Maasvallei!</h1>
-		<p>Experience the great outdoors with us.</p>
 		<a href="#" class="btn">Reserveer nu</a>
-		<div class="home-info">
-	<p>Dobberen in lagunebaden, zonnen aan zee en boomklimmen in het bos. Zo maar een greep uit het enorme activiteitenaanbod op camping de Maasvallei. En je beleeft hier nog zoveel meer. Een supercamping voor het hele gezin. Neem je intrek in een stoere safaritent of luxe glamping accommodatie, en je vakantie kan beginnen!</p>
-</div>
-    </div>
 </div>
 <div class="impression-home">
 	<h2>Een impressie van de camping en de activiteiten</h2>
 	<div class="home-cards">
-	
-	<div class="card">
-  <img src="./media/images/sauna.webp" class="card__image" alt="camping" />
-  <div class="card__content">
-    <time datetime="2023-07-20" class="card__date">Faciliteiten</time>
-    <span class="card__title">Geniet van onze welnessruimte en -behandelingen met onder andere Massages, Saunas, Hamam, Wellness, Jacuzzi, Schoonheidsbehandelingen	en een Kapper.<span>
+  <article class="card">
+  <img
+    class="card__background"
+    src="media/images/waterpark.webp"
+    alt="test"
+    width="1920"
+    height="2193"
+  />
+  <div class="card__content | flow">
+    <div class="card__content--container | flow">
+      <h2 class="card__title">Waterpark</h2>
+      <p class="card__description">
+        Ons waterpark bestaat uit 3 grote baden en 8 glijbanen! Ook een bar in een van de zwembaden voor een verfrissend drankje.
+      </p>
+    </div>
   </div>
-</div>
-<div class="card">
-  <img src="./media/images/waterpark.webp" class="card__image" alt="friends" />
-  <div class="card__content">
-    <time datetime="2021-03-30" class="card__date">Waterpark</time>
-    <span class="card__title">In ons waterpark kan je onder andere gebruik maken van de Waterspeelpark, Kinderbad en Zonneterras<span>
+</article>
+<article class="card">
+  <img
+    class="card__background"
+    src="media/images/sauna.webp"
+    alt="test"
+    width="1920"
+    height="2193"
+  />
+  <div class="card__content | flow">
+    <div class="card__content--container | flow">
+      <h2 class="card__title">Welness</h2>
+      <p class="card__description">
+        Ons wellness bestaat uit 2 sauna's en een stoomcabine voor de ultime ontspanning.
+      </p>
+    </div>
   </div>
-</div>
-<div class="card">
-  <img src="./media/images/camping3.jpg" class="card__image" alt="camper" />
-  <div class="card__content">
-    <time datetime="2021-03-30" class="card__date">Diensten</time>
-    <span class="card__title">Wij hebben onder andere een Bar, Afhaalmaaltijden, Pizzeria, Souvenirwinkel, Verhuur / Verkoop / Uitleen, Linnenverhuur, Verhuur barbecue of plancha, Fietsverhuur, Wifi-toegang en Wasmachine<span>
+</article>
+<article class="card">
+  <img
+    class="card__background"
+    src="media/images/camping1.jpg"
+    alt="test"
+    width="1920"
+    height="2193"
+  />
+  <div class="card__content | flow">
+    <div class="card__content--container | flow">
+      <h2 class="card__title">Locatie</h2>
+      <p class="card__description">
+        De camping ligt hoog in de bergen waardoor het bijna altijd zonnig en droog is. Daarnaast kan je genieten van het geweldige uitzicht.
+      </p>
+    </div>
   </div>
-</div>
+</article>
 	</div>
 </div>
     <?php include_once("includes/footer.php"); ?>
-
-
 </body>
 </html>
