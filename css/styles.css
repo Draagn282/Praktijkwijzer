@@ -644,3 +644,40 @@ footer {
     width: 50%;
   }
 }
+
+/*about us*/
+.about-us-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../media/images/background-camping.jpeg");
+  background-position: center center;
+  background-size: cover;
+}
+
+/*vallidationpage*/
+.vallidation-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../media/images/camping.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.vallidation-container-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 550px;
+  width: 100%;
+  background-color: white;
+  padding: 60px;
+}
+
+.vallidation-container-message p{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
