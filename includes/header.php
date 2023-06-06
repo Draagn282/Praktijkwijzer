@@ -7,6 +7,7 @@
     <title>Camping Maasvallei</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/nav-foot.css">
+    <link rel="icon" href="media/images/icon-favicon.png">
 </head>
             
     <div class="navbar">

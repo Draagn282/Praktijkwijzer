@@ -1,12 +1,11 @@
-<?php include_once("includes/header.php"); 
+<?php include_once("./includes/header.php"); 
 ?>
 <body>
-	<h1>
-        test
-    </h1>
+<div class="about-us-container">
+    <h1>Over ons</h1>
+    <h3></h3>
 </div>
-    <?php include_once("includes/footer.php"); ?>
-
+    <?php include_once("./includes/footer.php"); ?>
 
 </body>
 </html>
