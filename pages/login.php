@@ -15,7 +15,7 @@
 
 	<main>
 		
-    <form id="loginform" action="php/login.php" method="post">
+    <form id="loginform" action="php/loginaction.php" method="post">
       <?php
         if(isset($_GET['error'])) {
           if($_GET['error'] == "email") { ?>

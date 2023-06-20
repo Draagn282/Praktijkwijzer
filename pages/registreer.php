@@ -15,7 +15,7 @@
 
 	<main>
 		
-    <form id="registerform" action="php/register.php" method="post">
+    <form id="registerform" action="./php/registreeraction.php" method="post">
       <label for="username">Volledige naam:</label>
       <input class="textbox" type="text" name="naam" required>
 
