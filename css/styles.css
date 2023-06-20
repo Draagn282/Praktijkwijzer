@@ -677,6 +677,7 @@ footer {
   background-image: url("../media/images/background-camping.jpeg");
   background-position: center center;
   background-size: cover;
+  padding: 48px;
 }
 
 /*vallidationpage*/
