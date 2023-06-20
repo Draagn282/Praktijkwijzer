@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/nav-foot.css">
 </head>
-<?php include_once("../includes/header.php"); 
+<?php include_once("../includes/pages-header.php"); 
 ?>
 <body>
 
