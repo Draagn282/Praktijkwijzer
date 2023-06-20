@@ -1,4 +1,4 @@
-<?php include "../includes/header.php" ?>
+<?php include "../includes/pages-header.php" ?>
 <link rel="stylesheet" href="../css/styles.css">
 
 
