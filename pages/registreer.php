@@ -1,4 +1,4 @@
-
+    
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,25 +15,21 @@
 
 	<main>
 		
-    <form id="loginform" action="php/login.php" method="post">
-      <?php
-        if(isset($_GET['error'])) {
-          if($_GET['error'] == "email") { ?>
-            <b id="error">Email kan niet gevonden worden.</b>
-          <?php } else if($_GET['error'] == "password") { ?>
-            <b id="error">Het wachtwoord klopt niet.</b>
-          <?php }
-        }
-      ?>
+    <form id="registerform" action="php/register.php" method="post">
+      <label for="username">Volledige naam:</label>
+      <input class="textbox" type="text" name="naam" required>
 
       <label for="username">Email:</label>
       <input class="textbox" type="email" name="email" required>
 
       <label for="password"> Wachtwoord:</label>
-      <input class="textbox" type="password" name="password" required>
+      <input class="textbox" id="pass1" type="password" name="password" required>
 
-      <input class="form-button" type="submit" name="login" value="Inloggen"/>
-      <a href="registreer.php">Registreren</a>
+      <label for="password"> Wachtwoord herhalen:</label>
+      <input class="textbox" id="pass2" type="password" name="password-repeat" required>
+
+      <input class="form-button" id="reg" type="submit" name="register" value="Registreren"/>
+      <a href="login.php">Inloggen</a>
     </form>
 
 	</main>
