@@ -15,7 +15,8 @@
 		<li><a href="index.php">Home</a></li>
 		<li><a href="reservations.php">Reserveren</a></li>
 		<li><a href="aboutUs.php">Over ons</a></li>
-        <li><a href="pages/login.php">login</a></li>
+    <li><a href="complaints.php">Klacht indienen</a></li>
+    <li><a href="pages/login.php">login</a></li>
 		</ul>
     </div>
 
