@@ -32,60 +32,21 @@
             <h3>Klachten</h3>
         </div>
         <div class="cleanerSec_QuickAcces">
-            <p>Totaal aantal klachten (2!)</p>
+            <?php
+               // Include the count_messages.php file
+                require_once '../actions/function_counter.php';
+
+                // Call the countMessages() function to get the total number of messages
+                $totalMessages = countMessages()['total_messages'];
+
+                // Display the total number of messages
+                echo "Totaal klachten: " . $totalMessages;
+            ?>
         </div>
         <div class="cleanerSec_scroll">
-            <div class="cleanerCom">
-                <div class="cleanerCom_data">
-                    <div class="cleanerCom_info">
-                        <p>...User...</p>
-                    </div>      
-                    <div class="cleanerCom_info">
-                        <p>...Date...</p>
-                    </div>
-                    <div class="cleanerCom_info">
-                        <p>...Complete...</p>
-                    </div>
-                    <div class="cleanerCom_info">
-                        <p>...Weight...</p>
-                    </div>
-                    
-                </div>
-                <div class="cleanerCom_text">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis vero dolor laboriosam autem quae, tempore dolorum nesciunt debitis eos placeat.</p>
-                </div>
-
-                <div class="cleanerCom_buttons">
-                    <button style="background-color: Green;">...complete...</button>
-                    <button style="background-color: cyan;">...edit...</button>
-                    <button style="background-color: red;">...delete...</button>
-                </div>
-            </div>
-            <div class="cleanerCom">
-                <div class="cleanerCom_data">
-                    <div class="cleanerCom_user">
-                        <p>...User...</p>
-                    </div>      
-                    <div class="cleanerCom_date">
-                        <p>...Date...</p>
-                    </div>
-                    <div class="cleanerCom_date">
-                        <p>...Complete...</p>
-                    </div>
-                    <div class="cleanerCom_weight">
-                        <p>...Weight...</p>
-                    </div>
-                </div>
-                <div class="cleanerCom_text">
-                    <p>...This is even more text to see if i am a good blind typer, it looks like its working, but looking goed faster cuz i can see the things. THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere  THere a lot of text, but i do non know what to put here, so i am going to type some stuff to see if it fits...</p>
-                </div>
-
-                <div class="cleanerCom_buttons">
-                    <button style="background-color: Green;">...complete...</button>
-                    <button style="background-color: cyan;">...edit...</button>
-                    <button style="background-color: red;">...delete...</button>
-                </div>
-            </div>
+            <?php
+                include '../actions/klacht_create.php';
+              ?>
         </div>
     </div>
     <div class="cleaner_cleanerSec">
