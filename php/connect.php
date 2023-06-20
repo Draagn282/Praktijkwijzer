@@ -1,6 +1,6 @@
 <?php
   $host = 'localhost';
-  $db = 'reisorganisatie';
+  $db = 'praktijkwijzer';
   $user = 'root';
   $pass = '';
   $charset = 'utf8mb4';
@@ -13,7 +13,7 @@
   ];
 
   try {
-    $connect = new PDO($dsn, $user, $pass, $opt);
+    $conn = new PDO($dsn, $user, $pass, $opt);
     // echo "Verbinding is gemaakt.";
   } catch (PD0Exception $e) {
     echo $e->getMessage();
