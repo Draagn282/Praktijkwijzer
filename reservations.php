@@ -9,13 +9,13 @@
         <div class="w-full sm:w-half formbold-px-3">
           <div class="formbold-mb-5">
             <label for="fName" class="formbold-form-label"> Voornaam </label>
-            <input type="text" name="fName" id="fName" placeholder="Voornaam" class="formbold-form-input" />
+            <input type="text" name="fName" id="fName" placeholder="Voornaam" class="formbold-form-input"  required>
           </div>
         </div>
         <div class="w-full sm:w-half formbold-px-3">
           <div class="formbold-mb-5">
             <label for="lName" class="formbold-form-label"> Achternaam </label>
-            <input type="text" name="lName" id="lName" placeholder="Achternaam" class="formbold-form-input" />
+            <input type="text" name="lName" id="lName" placeholder="Achternaam" class="formbold-form-input"  required>
           </div>
         </div>
       </div>
@@ -24,21 +24,21 @@
         <label for="guest" class="formbold-form-label">
           E-mailadres
         </label>
-        <input type="email" name="email" id="guest" placeholder="e-mailadres" class="formbold-form-input" />
+        <input type="email" name="email" id="guest" placeholder="e-mailadres" class="formbold-form-input" required>
       </div>
 
       <div class="formbold-mb-5">
         <label for="guest" class="formbold-form-label">
           Hoeveel gasten neem je mee?
         </label>
-        <input type="number" name="guest" id="guest" placeholder="" class="formbold-form-input" />
+        <input type="number" name="guest" id="guest" placeholder="" class="formbold-form-input"  required>
       </div>
 
       <div class="formbold-mb-5">
         <label for="guest" class="formbold-form-label">
           Selecteer accomodatie
         </label>
-        <select class="formbold-form-input" id="accomodatie" name="accomodation">
+        <select class="formbold-form-input" id="accomodatie" name="accomodation" required>
             <option value="caravan">Staanplaats caravan</option>
             <option value="camper">Staanplaats camper</option>
             <option value="tent">Staanplaats tent</option>
@@ -49,13 +49,13 @@
         <div class="w-full sm:w-half formbold-px-3">
           <div class="formbold-mb-5">
             <label for="date" class="formbold-form-label">Aankomst datum</label>
-            <input type="date" name="arrivalDate" id="arrivalDate" class="formbold-form-input" />
+            <input type="date" name="arrivalDate" id="arrivalDate" class="formbold-form-input"  required>
           </div>
         </div>
         <div class="w-full sm:w-half formbold-px-3">
           <div class="formbold-mb-5">
             <label for="date" class="formbold-form-label">Vertrek datum</label>
-            <input type="date" name="departureDate" id="departureDate" class="formbold-form-input" />
+            <input type="date" name="departureDate" id="departureDate" class="formbold-form-input"  required>
           </div>
         </div>
       </div>
