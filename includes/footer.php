@@ -1,5 +1,5 @@
-<footer>
-  <div class="footer-wrap">
+
+<div class="footer-wrap">
     <div class="footer-section">
       <div class="footer-column">
         <img src="../media/images/maas-logo.png" height="150px" alt="maas_logo">
@@ -39,7 +39,6 @@
       </div>
     </div>
   </div>
-</footer>
     <footer>
 		<p class="">&copy; 2023 Camping Maasvallei | Gemaakt door: Amber, Daan, Liam, Merijn</p>
 	</footer>
