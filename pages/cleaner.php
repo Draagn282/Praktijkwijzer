@@ -57,36 +57,9 @@
             <p>Totaal bezet of vrij</p>
         </div>
         <div class="cleanerSec_scroll">
-            <div class="field">
-                <div class="field_data">
-                        <p>...Field ID...</p>
-                        <p>...Field...</p>
-                        <p>...Current Status...</p>
-                        <p>...Date Taken...</p>
-                        <p>...Date Free...</p>
-                        <p>...Customer ID...</p>
-                        <p>...Customer Name...</p>
-                        <p>...Customer ID...</p>
-                </div>
-                <div class="cleanerCom_buttons">
-                    <button>...edit...</button>
-                </div>
-            </div>
-            <div class="field">
-                <div class="field_data">
-                        <p>...Field ID...</p>
-                        <p>...Field...</p>
-                        <p>...Current Status...</p>
-                        <p>...Date Taken...</p>
-                        <p>...Date Free...</p>
-                        <p>...Customer ID...</p>
-                        <p>...Customer Name...</p>
-                        <p>...Customer ID...</p>
-                </div>
-                <div class="cleanerCom_buttons">
-                    <button>...edit...</button>
-                </div>
-            </div>
+            <?php
+                include '../actions/bezet_create.php';
+              ?>
         </div>
 
     </div>
@@ -137,6 +110,4 @@
 </div>
     
 </div>
-
-
 <?php include '../includes/footer.php'?>

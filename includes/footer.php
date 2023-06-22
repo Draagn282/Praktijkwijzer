@@ -2,7 +2,7 @@
   <div class="footer-wrap">
     <div class="footer-section">
       <div class="footer-column">
-        <img src="../media/images/maas-logo.png" alt="maas_logo">
+        <img src="../media/images/maas-logo.png" height="150px" alt="maas_logo">
       </div>
       <div class="footer-column">
         <h3>de Maasvallei</h3>

@@ -621,7 +621,7 @@ header {
 .footer-column {
   width: 25%;
   height: auto;
-  background-color: red;
+  background-color: var(--grey);
 }
 
 .footer-section {
@@ -629,6 +629,10 @@ header {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+}
+
+.footer-wrap {
+  width: 100%;
 }
 
 nav li {
