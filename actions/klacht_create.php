@@ -2,7 +2,15 @@
 
 include_once ('../php/connect.php');   
 
+if (isset($_POST['delete_id'])) {
+    $deleteId = $_POST['delete_id'];
 
+    // Perform the deletion query
+    $sql = "DELETE FROM klacht WHERE id = :deleteId";
+    $stmt = $conn->prepare($sql);
+    $stmt->bindParam(':deleteId', $deleteId);
+    $stmt->execute();
+}
 
 $sql = "SELECT * FROM klacht";
 $stmt = $conn->prepare($sql); $stmt->execute(); $result = $stmt->fetchall();
@@ -29,7 +37,10 @@ foreach ($result as $klacht) {
     echo '<div class="cleanerCom_buttons">';
         echo '<button style="background-color: Green;">...complete...</button>';
         echo '<button style="background-color: cyan;">...edit...</button>';
-        echo '<button style="background-color: red;">...delete...</button>';
+        echo '<form method="POST">';
+        echo '<input type="hidden" name="delete_id" value="' . $klacht['id'] . '">';
+        echo '<button class="btn-delete" type="submit">Delete</button>';
+        echo '</form>';
     echo '</div>';
 echo '</div>';
 }
