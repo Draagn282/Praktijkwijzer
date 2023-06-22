@@ -13,9 +13,9 @@
 ?>
 <body>
 
-	<main>
+	<main class="main_login">
 		
-    <form id="registerform" action="php/register.php" method="post">
+    <form class="loginform" id="registerform" action="php/register.php" method="post">
       <label for="username">Volledige naam:</label>
       <input class="textbox" type="text" name="naam" required>
 
@@ -28,7 +28,7 @@
       <label for="password"> Wachtwoord herhalen:</label>
       <input class="textbox" id="pass2" type="password" name="password-repeat" required>
 
-      <input class="form-button" id="reg" type="submit" name="register" value="Registreren"/>
+      <input class="formbold-btn" id="reg" type="submit" name="register" value="Registreren"/>
       <a href="login.php">Inloggen</a>
     </form>
 

@@ -31,6 +31,26 @@ voor elke section zet een space  */
   padding: 25px;
   border: #000000;
   border-style: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: fit-content;
+  width: 300px;
+  min-height: 300px;
+  height: 400px;
+  background-color: white;
+}
+
+.main_login{
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+  background-image: url("../media/images/camping1.jpg");
+  background-position: center center;
+  background-size: cover;
 }
 
 /************************* ALGEMENEEN *************************/
@@ -58,6 +78,8 @@ voor elke section zet een space  */
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+
 
 /********** TITLES EN PARAGRAPHS **********/
 
@@ -119,6 +141,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  min-height: 100vh;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -695,6 +718,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-box-shadow: 0px -4px 13px 1px rgba(93, 93, 93, 0.611); 
+  box-shadow: 0px -4px 13px 1px rgba(93, 93, 93, 0.611);
 }
 
 /********** dashboard **********/
@@ -720,6 +745,7 @@ footer {
 }
 .formbold-main-wrapper {
   display: flex;
+  min-height: 100vh;
   align-items: center;
   justify-content: center;
   padding: 48px;
@@ -828,6 +854,7 @@ footer {
   background-image: url("../media/images/background-camping.jpeg");
   background-position: center center;
   background-size: cover;
+  padding: 48px;
 }
 
 /*vallidationpage*/

@@ -12,10 +12,9 @@
 <?php include_once("../includes/pages-header.php"); 
 ?>
 <body>
-
-	<main>
-		
-    <form id="loginform" action="php/login.php" method="post">
+ 
+  <main class="main_login">
+    <form class="loginform" id="loginform" action="php/login.php" method="post">
       <?php
         if(isset($_GET['error'])) {
           if($_GET['error'] == "email") { ?>
@@ -26,17 +25,17 @@
         }
       ?>
 
-      <label for="username">Email:</label>
+      <h3 for="username">Email:</h3>
       <input class="textbox" type="email" name="email" required>
 
-      <label for="password"> Wachtwoord:</label>
+      <h3 for="password"> Wachtwoord:</h3>
       <input class="textbox" type="password" name="password" required>
 
-      <input class="form-button" type="submit" name="login" value="Inloggen"/>
+      <input class="formbold-btn" type="submit" name="login" value="Inloggen"/>
       <a href="registreer.php">Registreren</a>
     </form>
+  </main>
 
-	</main>
     <?php include_once("../includes/footer.php"); ?>
 
 
