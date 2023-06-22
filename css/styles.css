@@ -807,6 +807,7 @@ footer {
   outline: none;
   resize: none;
 }
+
 .formbold-form-input:focus {
   border-color: darkorange;
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);

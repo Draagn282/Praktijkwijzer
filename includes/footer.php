@@ -1,5 +1,5 @@
 
-<div class="footer-wrap">
+  <div class="footer-wrap">
     <div class="footer-section">
       <div class="footer-column">
         <img src="../media/images/maas-logo.png" height="150px" alt="maas_logo">
