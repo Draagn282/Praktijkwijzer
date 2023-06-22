@@ -39,7 +39,7 @@ foreach ($result as $klacht) {
         echo '<button style="background-color: cyan;">...edit...</button>';
         echo '<form method="POST">';
         echo '<input type="hidden" name="delete_id" value="' . $klacht['id'] . '">';
-        echo '<button style="background-color: red;" type="submit">...delete...</button>';
+        echo '<button class="btn-delete" type="submit">Delete</button>';
         echo '</form>';
     echo '</div>';
 echo '</div>';
